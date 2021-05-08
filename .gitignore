@@ -1,5 +1,6 @@
 # Project Ignores
 docker-compose.override.yml
+.idea/
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/django,pycharm,python
@@ -335,4 +336,3 @@ fabric.properties
 
 
 # End of https://www.toptal.com/developers/gitignore/api/django,pycharm,python
-
