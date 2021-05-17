@@ -40,7 +40,8 @@ INSTALLED_APPS = [
 
     # Local
     'users.apps.UsersConfig',
-    'pages.apps.PagesConfig'
+    'pages.apps.PagesConfig',
+    'gallery.apps.GalleryConfig',
 ]
 
 MIDDLEWARE = [
