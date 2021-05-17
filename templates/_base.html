@@ -36,6 +36,11 @@
           <li class="nav-item">
             <a class="nav-link disable" href="#">{% trans 'Biography' %}</a>
           </li>
+          {%if user.is_superuser %}
+          <li class="nav-item">
+            <a class="nav-link disable" href="{% url 'admin:index'%}">{% trans 'Admin' %}</a>
+          </li>
+          {% endif %}
         </ul>
       </div>
 
